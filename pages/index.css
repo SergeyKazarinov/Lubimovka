@@ -1,6 +1,7 @@
 /* vendor */
 @import url(../vendor/normalize.css);
-/* @import url(../vendor/fonts/); */
+@import url(../vendor/fonts/Formular-Light/formular-light.css);
+@import url(../vendor/fonts/Neue-Machina-Regular/Neue-Machina.css);
 /* page body */
 @import url(../blocks/page/page.css);
 @import url(../blocks/body/body.css);

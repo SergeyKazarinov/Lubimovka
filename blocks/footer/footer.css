@@ -2,6 +2,9 @@
   margin: 0;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(7, max-content);
-  grid-template-rows: repeat(3, max-content);
+  grid-template-columns: max-content 520px max-content max-content max-content;
+  grid-template-rows: 122px, 237px, 90px;
+  row-gap: 21px;
+  column-gap: 77px;
+  grid-auto-columns: 0;
 }

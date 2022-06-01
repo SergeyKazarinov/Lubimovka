@@ -18,3 +18,10 @@
 @import url(../blocks/footer/__nav-link/footer__nav-link.css);
 @import url(../blocks/footer/__nav-second-list/footer__nav-second-list.css);
 @import url(../blocks/footer/__nav-third-list/footer__nav-third-list.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-link/footer__copyright-link.css);
+@import url(../blocks/footer/__design/footer__design.css);
+@import url(../blocks/footer/__design-link/footer__design-link.css);
+@import url(../blocks/footer/__design-logo/footer__design-logo.css);
+@import url(../blocks/footer/__developers/footer__developers.css);
+@import url(../blocks/footer/__info/footer__info.css);

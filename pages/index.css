@@ -13,3 +13,8 @@
 @import url(../blocks/footer/__partner-logo/footer__partner-logo.css);
 @import url(../blocks/footer/__partners-title/footer__partners-title.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__nav-first-list/footer__nav-first-list.css);
+@import url(../blocks/footer/__nav-item/footer__nav-item.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__nav-second-list/footer__nav-second-list.css);
+@import url(../blocks/footer/__nav-third-list/footer__nav-third-list.css);

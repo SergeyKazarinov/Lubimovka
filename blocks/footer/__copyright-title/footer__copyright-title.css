@@ -1,10 +1,9 @@
-.footer__design-link {
-  white-space: pre-wrap;
-  text-decoration: none;
+.footer__copyright-title {
   font-family: 'Formular';
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #242424;
+  margin: 0 32px 0 0;
 }

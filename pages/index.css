@@ -7,6 +7,13 @@
 @import url(../blocks/body/body.css);
 /* header */
 @import url(../blocks/header/header.css);
+/* reviews */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__button-read/reviews__button-read.css);
+@import url(../blocks/reviews/__list/reviews__list.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
+@import url(../blocks/reviews/__subtitle/reviews__subtitle.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

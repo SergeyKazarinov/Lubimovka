@@ -1,5 +1,8 @@
 .header__link {
+  text-decoration: none;
   font-size: 16px;
   line-height: 22px;
-  vertical-align: middle;
+  vertical-align: top;
+  font-family: 'formular';
+  border: 1px solid red;
 }

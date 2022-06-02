@@ -1,0 +1,8 @@
+.viewer-reviews-slider__track {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #ECEBE8;
+  padding: 0;
+  margin: 0;
+}

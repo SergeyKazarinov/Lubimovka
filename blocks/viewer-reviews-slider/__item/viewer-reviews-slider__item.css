@@ -1,0 +1,11 @@
+.viewer-reviews-slider__item {
+ list-style: none;
+ min-height: 361px;
+ min-width: 420px;
+ background-color: #fff;
+ padding: 20px 30px 20px;
+ box-sizing: border-box;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}

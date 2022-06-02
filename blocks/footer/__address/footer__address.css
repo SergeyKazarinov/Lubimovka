@@ -3,3 +3,8 @@
   grid-row: 2/3;
   margin: 0;
 }
+@media (max-width: 850px) {
+  .footer__address {
+    grid-column: 2/4;
+  }
+}

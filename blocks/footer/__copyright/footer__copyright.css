@@ -11,3 +11,10 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 850px) {
+  .footer__copyright {
+    grid-column: 2/4;
+    flex-direction: row;
+  }
+}

@@ -15,3 +15,9 @@
     grid-row: 3/4;
   }
 }
+
+@media (max-width: 850px) {
+  .footer__nav-second-list {
+    grid-column: 2/3;
+  }
+}

@@ -1,8 +1,8 @@
 .reviews__button-back {
   width: 50px;
   height: 50px;
-  background-image: url(../../../images/reviews/slider-button-back.svg);
-  background-color: inherit;
+  /* background-image: url(../../../images/reviews/slider-button-back.svg);
+  background-color: inherit; */
   border: none;
   cursor: pointer;
   padding: 0;

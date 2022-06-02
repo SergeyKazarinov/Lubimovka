@@ -1,0 +1,7 @@
+.play{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 90px;
+    margin-left: 184px;
+    margin-right: 30px;
+}

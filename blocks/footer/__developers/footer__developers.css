@@ -10,3 +10,10 @@
   color: #242424;
   white-space: pre-wrap;
 }
+
+@media (max-width: 1170px) {
+  .footer__developers {
+    grid-row: 4/5;
+    grid-column: 4/5;
+  }
+}

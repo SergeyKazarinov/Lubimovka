@@ -5,3 +5,9 @@
   width: 93px;
   height: 80px;
 }
+
+@media (max-width: 1170px) {
+  .footer__logo {
+    margin-left: 20px;
+  }
+}

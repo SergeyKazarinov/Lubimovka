@@ -3,3 +3,11 @@
   grid-row: 3/4;
   display: flex;
 }
+
+@media (max-width: 1170px) {
+  .footer__copyright {
+    grid-row: 4/5;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

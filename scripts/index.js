@@ -13,3 +13,14 @@ $(document).ready(function(){
       ]
   });
 });
+
+// //Делегируем события кнопок next prev по умолчанию нашим кнопкам, которые могут находится ыне контейнера слайдера
+// var owl=$(".owl-carousel");
+// owl.owlCarousel();
+// //$(".next") - находим нашу кнопку
+// $(".next").click(function(){
+// owl.trigger("next.owl.carousel");
+// });
+// $(".prev").click(function(){
+// owl.trigger("prev.owl.carousel");
+// });

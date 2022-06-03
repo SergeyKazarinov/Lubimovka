@@ -18,6 +18,7 @@
 @import url(../blocks/about/__paragraph/about__paragraph.css);
 @import url(../blocks/about/__brief/about__brief.css);
 @import url(../blocks/about/__link/about__link.css);
+@import url(../blocks/about/__arrow/about__arrow.css);
 /* section play */
 @import url(../blocks/play/play.css);
 @import url(../blocks/play/__block-video/play__block-video.css);

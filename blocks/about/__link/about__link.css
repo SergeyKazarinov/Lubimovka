@@ -1,0 +1,17 @@
+.about__link {
+  padding: 0 16px;
+  margin: 16px 0 0;
+  text-decoration: none;
+  width: 240px;
+  height: 56px;
+  flex-shrink: 0;
+  font-family: 'Formular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+  border: 1px solid #000000;
+  display:block;
+  text-align: justify;
+}

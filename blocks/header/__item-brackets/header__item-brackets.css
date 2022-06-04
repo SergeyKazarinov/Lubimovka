@@ -1,5 +1,4 @@
 .header__item-brackets {
-  border: 1px solid black;
   max-height: 24px;
-  opacity: 0.1;
+  opacity: 0;
 }

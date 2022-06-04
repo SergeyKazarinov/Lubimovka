@@ -1,4 +1,8 @@
 .header__item {
+  display: flex;
   max-height: 24px;
-  border: 1px solid yellow;
+}
+
+.header__item:last-child {
+  margin-right: 20px;
 }

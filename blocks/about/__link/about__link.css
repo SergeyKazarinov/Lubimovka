@@ -29,32 +29,5 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  /* position: relative;
-  overflow: hidden;
-  outline: none; */
   background-color: inherit;
 }
-/*
-.about__link:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: #242424;
-  transition: left .3s;
-  z-index: -1;
-}
-
-.about__link:hover {
-  color: #E5E5E5;
-}
-
-.about__link:hover:before{
-  left: 0;
-}
-
-.about__link:active {
-  animation: press 0.5s;
-} */

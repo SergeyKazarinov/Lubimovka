@@ -18,6 +18,7 @@
 
 .color-change:hover {
   color: #E5E5E5;
+  fill: #E5E5E5;
 }
 
 .color-change:hover:before{

@@ -10,6 +10,6 @@
   }
 }
 
-.btn-animation:active {
+.scale-animation:active {
   animation: press 0.5s;
 }

@@ -1,6 +1,6 @@
 .play__video{
     margin-bottom: 66px;
     border: none;
-    width: 691px;
-    height: 389px;
+    width: 100%;
+    min-height: 389px;
 }

@@ -29,12 +29,12 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  position: relative;
+  /* position: relative;
   overflow: hidden;
-  outline: none;
+  outline: none; */
   background-color: inherit;
 }
-
+/*
 .about__link:before {
   content: '';
   position: absolute;
@@ -57,4 +57,4 @@
 
 .about__link:active {
   animation: press 0.5s;
-}
+} */

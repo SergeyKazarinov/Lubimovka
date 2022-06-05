@@ -1,0 +1,19 @@
+.play__text{
+margin-right: 88px;
+margin-bottom: 24px;
+margin-top: 0;
+font-family: 'Formular';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.01em;
+font-feature-settings: 'ss01' on;
+text-indent: 40px;
+}
+.play__text:first-of-type{
+    text-indent: 0;
+}
+.play__text:last-child{
+    margin-bottom: 0;
+}

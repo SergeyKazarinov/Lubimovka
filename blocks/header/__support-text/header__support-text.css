@@ -1,7 +1,7 @@
 .header__support-text {
   font-size: 14px;
   line-height: 17px;
-  font-family: 'formular';
+  font-family: 'formular', Arial, sans-serif;
   font-style: normal;
   align-self: center;
 }

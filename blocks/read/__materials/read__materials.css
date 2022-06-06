@@ -1,0 +1,8 @@
+.read__materials {
+  width: 240px;
+  height: 300px;
+  background-color: #B7C09D;
+  z-index: -5;
+  padding-top: 24px;
+  box-sizing: border-box;
+}

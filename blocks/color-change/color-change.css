@@ -13,10 +13,9 @@
   height: 100%;
   background-color: #242424;
   transition: left .3s;
-  z-index: -1;
 }
 
-.color-change:hover {
+.color-change:hover .button-content {
   color: #E5E5E5;
   fill: #E5E5E5;
 }

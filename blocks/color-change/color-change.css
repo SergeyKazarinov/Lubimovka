@@ -15,11 +15,6 @@
   transition: left .3s;
 }
 
-/* .color-change:hover {
-  color: #E5E5E5;
-  fill: #E5E5E5;
-} */
-
 .color-change:hover .button-content {
   color: #E5E5E5;
   fill: #E5E5E5;

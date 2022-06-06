@@ -43,8 +43,6 @@
 @import url(../blocks/read/__item/_type/read__item_type_button.css);
 @import url(../blocks/read/__name/read__name.css);
 @import url(../blocks/read/__place/read__place.css);
-
-
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

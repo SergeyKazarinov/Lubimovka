@@ -1,0 +1,10 @@
+.header__item {
+  display: flex;
+  opacity: 1;
+  transition: opacity, .4s;
+}
+
+.header__item:hover .header__item-brackets{
+  opacity: 1;
+  transition: opacity, .4s;
+}

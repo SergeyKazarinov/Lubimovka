@@ -10,6 +10,7 @@ line-height: 28px;
 letter-spacing: -0.01em;
 font-feature-settings: 'ss01' on;
 text-indent: 40px;
+max-width: 620px;
 }
 .play__text:first-of-type{
     text-indent: 0;

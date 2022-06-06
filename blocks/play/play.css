@@ -1,7 +1,5 @@
 .play{
     display: grid;
-    grid-template-columns: 445px 691px;
-    column-gap: 90px;
-    margin-left: 184px;
+    grid-template-columns: repeat(2,1fr);
     margin-top: 68px;
 }

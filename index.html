@@ -8,20 +8,89 @@
   <link rel="stylesheet" type="text/css" href="pages/index.css">
   <title>Любимовка</title>
 </head>
-<body class="body">
-  <div class="page">
+<body class="page">
     <header class="header">
+      <div class="header__logo-container">
+        <img class="header__logo" src="./images/header/Group.svg" alt="Логотип">
+      </div>
+      <nav class="header__navigation">
+        <ul class="list header__items header__nav">
+          <li class="header__item">
+            <img class="header__item-brackets" src="./images/header/Ellipse 46.svg">
+            <a class="header__link" href="#">Афиша</a>
+            <img class="header__item-brackets" src="./images/header/Ellipse 56.svg">
+          </li>
+          <li class="header__item">
+            <img class="header__item-brackets" src="./images/header/Ellipse 46.svg">
+            <a class="header__link" href="#">Библиотека</a>
+            <img class="header__item-brackets" src="./images/header/Ellipse 56.svg">
+          </li>
+          <li class="header__item">
+            <img class="header__item-brackets" src="./images/header/Ellipse 46.svg">
+            <a class="header__link" href="#">Проекты</a>
+            <img class="header__item-brackets" src="./images/header/Ellipse 56.svg">
+          </li>
+          <li class="header__item">
+            <img class="header__item-brackets" src="./images/header/Ellipse 46.svg">
+            <a class="header__link" href="#">История</a>
+            <img class="header__item-brackets" src="./images/header/Ellipse 56.svg">
+          </li>
+          <li class="header__item">
+            <img class="header__item-brackets" src="./images/header/Ellipse 46.svg">
+            <a class="header__link" href="#">Блог</a>
+            <img class="header__item-brackets" src="./images/header/Ellipse 56.svg">
+          </li>
+          <li class="header__item">
+            <img class="header__item-brackets" src="./images/header/Ellipse 46.svg">
+            <a class="header__link" href="#">Новости</a>
+            <img class="header__item-brackets" src="./images/header/Ellipse 56.svg">
+          </li>
+          <li class="header__item">
+            <img class="header__item-brackets" src="./images/header/Ellipse 46.svg">
+            <a class="header__link" href="#">О фестивале</a>
+            <img class="header__item-brackets" src="./images/header/Ellipse 56.svg">
+          </li>
+          <li class="header__item">
+            <img class="header__item-brackets" src="./images/header/Ellipse 46.svg">
+            <a class="header__link" href="#">Контакты</a>
+            <img class="header__item-brackets" src="./images/header/Ellipse 56.svg">
+          </li>
+        </ul>
+        <div class="header__line"></div>
 
+        <ul class="list header__items header__socials">
+          <li class="header__item">
+            <a class="header__link" href="#">fb</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">inst</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">ytube</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">tlgrm</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">vk</a>
+          </li>
+        </ul>
+        <div class="header__line"></div>
+
+        <a class="header__support" href="#">
+          <span class="header__support-btn">+</span>
+          <span class="header__support-text">ПОДДЕРЖАТЬ</span>
+        </a>
+      </nav>
     </header>
     <main class="content">
-
       <a class="back-button color-change scale-animation" href="#">
         <span class="button-content">ПРОЕКТЫ</span>
         <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"/>
           </svg>
       </a>
-
+      
       <section class="about">
         <div class="about__brief">
           <h1 class="about__title">С_училища</h1>
@@ -42,7 +111,8 @@
           <p class="about__paragraph">Семён Серзин сделал читку этой пьесы в рамках основной программы Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар.</p>
         </div>
       </section>
-      <section class="play">
+      
+      <article class="play">
         <div class="play__block-info">
           <h3 class="play__title">1 ч. 15 мин. | 18+  </h3>
           <p class="play__info">Драматург</p>
@@ -57,13 +127,13 @@
           <p class="play__names">Фёдор Кокорев, Коля Ноекёльн, Ксения Чекина, Александр Пронькин, Владимир Морозов, Светлана Маршанкина</p>
         </div>
         <div class="play__block-video">
-          <iframe class="play__video" width="691" height="389" src="https://www.youtube.com/embed/juq_3oRQ6yc?controls=0&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="play__video"  src="https://www.youtube.com/embed/juq_3oRQ6yc?controls=0&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <p class="play__text">Пьеса «Длань Господня» (Hand to God) — лауреат американской театральной премии OBIE (Off-Broadway Theater Awards), номинант ежегодно присуждаемой премии TONY (Theatre Of New York), театрального аналога «Оскара», и номинант на Британскую премию Лоуренса Оливье в качестве «Лучшей Новой Комедии». Она была поставлена в бродвейских театрах и в лондонском Вест-Энде.</p>
           <p class="play__text">Этот спектакль – результат коллаборации фестиваля драматургии «Любимовка», который запустил проект по выпуску собственных спектаклей «Любимовка.Продакшн», Театра 18+ и Театра.doc. Исполнители – выпускники актерской лаборатории Юрия Муравицкого Московской Школы Нового Кино.</p>
           <p class="play__text"> Режиссёр спектакля Юрий Муравицкий – лауреат Национальной театральной премии «Золотая маска», лауреат премий Herald Angel Award и Total Theatre Award в номинации Innovation, Experimentation & Playing with Form на Edinburgh Festival Fringe: «В этой пьесе меня задевает её смелость и свобода. И то, что она написана смешно. Мне сейчас интересны комедии. В январе я выпустил «Lё Тартюф. Комедия» в театре на Таганке — тоже комедию и тоже в известном смысле антиклерикальную. У меня есть стойкое ощущение что всему, что сейчас происходит в нашей стране и в мире, мы можем противопоставить только смех. Иногда горький смех, иногда злой. Сейчас в воздухе столько ненависти, что нам всем полезно больше смеяться. И над собой в том числе. «Длань Господня» — это чёрная комедия. Помимо прочего, она показывает к чему приводит навязывание и насильственное насаждение религии».</p>
           <p class="play__text">Пьеса была успешно представлена в России в формате читки в 2016 году рамках лаборатории LARK+Любимовка на сцене Центра им. Мейерхольда.</p>
         </div>
-      </section>
+      </article>
 
       <section class="read">
         <div class="read__container">
@@ -183,7 +253,6 @@ shishki.collective</a>
       <a class="footer__developers" href="#" target="_blank">вёрстка и разработка &mdash;
 студенты Яндекс.Практикума</a>
     </footer>
-  </div>
   <script src="./scripts/index.js"></script>
 </body>
 </html>

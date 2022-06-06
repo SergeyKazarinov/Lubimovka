@@ -8,3 +8,16 @@
   grid-row: 2/3;
   margin: 0;
 }
+
+@media (max-width: 1170px) {
+  .footer__nav-second-list {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer__nav-second-list {
+    grid-column: 2/3;
+  }
+}

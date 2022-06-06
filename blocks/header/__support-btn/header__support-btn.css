@@ -1,7 +1,6 @@
 .header__support-btn {
-  border: none;
-  background-color: rgba(237, 236, 233, 0);
   width: 25px;
+  height: 25px;
   font-size: 23px;
-  padding: 0;
+  text-align: center;
 }

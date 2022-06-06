@@ -1,10 +1,7 @@
 .header__item {
   display: flex;
-  max-height: 24px;
-}
-
-.header__item:last-child {
-  margin-right: 20px;
+  opacity: 1;
+  transition: opacity, .4s;
 }
 
 .header__item:hover .header__item-brackets{

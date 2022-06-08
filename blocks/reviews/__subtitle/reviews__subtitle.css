@@ -9,6 +9,9 @@
   color: #242424;
   margin: 0 88px 32px 88px;
   text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 18;
+  -webkit-box-orient: vertical;
   overflow: hidden;
   max-height: 530px;
 }

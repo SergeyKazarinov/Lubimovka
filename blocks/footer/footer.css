@@ -1,5 +1,6 @@
 .footer {
   margin: 0 auto;
+  padding-top: 140px;
   display: grid;
   /* justify-content: center; */
   grid-template-columns: 9vw 34vw max-content 94px max-content;

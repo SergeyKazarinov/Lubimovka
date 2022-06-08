@@ -1,5 +1,5 @@
 .reviews__subtitle {
-  font-family: 'Formular';
+  font-family: 'Formular', ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -9,7 +9,6 @@
   color: #242424;
   margin: 0 88px 32px 88px;
   text-overflow: ellipsis;
-  /* white-space: nowrap; */
   overflow: hidden;
   max-height: 530px;
 }

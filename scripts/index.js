@@ -3,7 +3,7 @@ $(document).ready(function(){
       center: true,
       items:2,
       loop:false,
-      margin:30,
+      margin:50,
       touchDrag:true,
       mouseDrag:true,
       nav: true,

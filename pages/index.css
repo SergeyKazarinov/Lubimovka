@@ -15,7 +15,6 @@
 @import url(../blocks/reviews/__name/reviews__name.css);
 @import url(../blocks/reviews/__subtitle/reviews__subtitle.css);
 @import url(../blocks/reviews/__title/reviews__title.css);
-@import url(../blocks/reviews/__container/reviews__container.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

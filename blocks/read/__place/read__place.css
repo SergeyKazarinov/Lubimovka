@@ -1,0 +1,11 @@
+.read__place {
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+  padding: 0;
+  margin: 4px 0 0;
+  white-space: pre-wrap;
+}

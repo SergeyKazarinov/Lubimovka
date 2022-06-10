@@ -1,7 +1,7 @@
 .footer__design-link {
   white-space: pre-wrap;
   text-decoration: none;
-  font-family: 'Formular';
+  font-family: 'Formular', ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;

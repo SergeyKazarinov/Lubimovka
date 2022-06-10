@@ -1,0 +1,8 @@
+.header__support {
+  max-width: 127px;
+  display: flex;
+  height: 25px;
+  text-decoration: none;
+  color: #000;
+  margin: 20px 30px 18px 17px;
+}

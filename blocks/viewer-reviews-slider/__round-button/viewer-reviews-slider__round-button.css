@@ -5,8 +5,10 @@
   height: 8px;
   padding: 0;
   margin: 0 10px 0 0;
+  fill: none;
 }
 
 .viewer-reviews-slider__round-button:last-of-type {
   margin-right: 29px;
 }
+

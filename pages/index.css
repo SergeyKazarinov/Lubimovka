@@ -12,13 +12,13 @@
 @import url(../blocks/viewer-reviews-slider/viewer-reviews-slider.css);
 @import url(../blocks/viewer-reviews-slider/__header/viewer-reviews-slider__header.css);
 @import url(../blocks/viewer-reviews-slider/__title/viewer-reviews-slider__title.css);
-@import url(../blocks/viewer-reviews-slider/__buttons/viewer-reviews-slider__buttons.css);
 @import url(../blocks/viewer-reviews-slider/__round-buttons/viewer-reviews-slider__round-buttons.css);
 @import url(../blocks/viewer-reviews-slider/__round-button/viewer-reviews-slider__round-button.css);
 @import url(../blocks/viewer-reviews-slider/__round-button-image/viewer-reviews-slider__round-button-image.css);
 @import url(../blocks/viewer-reviews-slider/__arrow-buttons/viewer-reviews-slider__arrow-buttons.css);
 @import url(../blocks/viewer-reviews-slider/__arrow-button/viewer-reviews-slider__arrow-button.css);
 @import url(../blocks/viewer-reviews-slider/__arrow-button-image/viewer-reviews-slider__arrow-button-image.css);
+@import url(../blocks/viewer-reviews-slider/__wrapper/viewer-reviews-slider__wrapper.css);
 @import url(../blocks/viewer-reviews-slider/__container/viewer-reviews-slider__container.css);
 @import url(../blocks/viewer-reviews-slider/__track/viewer-reviews-slider__track.css);
 @import url(../blocks/viewer-reviews-slider/__item/viewer-reviews-slider__item.css);

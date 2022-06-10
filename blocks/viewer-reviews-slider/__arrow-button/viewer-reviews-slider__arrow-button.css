@@ -11,3 +11,7 @@
   margin-right: 15px;
 }
 
+.viewer-reviews-slider__arrow-button:hover {
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  opacity: .3;
+}

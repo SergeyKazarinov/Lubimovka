@@ -18,50 +18,65 @@
       <section class="viewer-reviews-slider">
         <div class="viewer-reviews-slider__header">
           <h3 class="viewer-reviews-slider__title">Отзывы зрителей</h3>
-          <div class="viewer-reviews-slider__buttons">
-            <div class="viewer-reviews-slider__round-buttons">
-              <button class="viewer-reviews-slider__round-button" type="button">
-                <img class="viewer-reviews-slider__round-button-image" src="./images/viewer-reviews-slider/Ellipse 37.svg" alt="Кружок">
-              </button>
-              <button class="viewer-reviews-slider__round-button" type="button">
-                <img class="viewer-reviews-slider__round-button-image" src="./images/viewer-reviews-slider/Ellipse 37.svg" alt="Кружок">
-              </button>
-              <button class="viewer-reviews-slider__round-button" type="button">
-                <img class="viewer-reviews-slider__round-button-image" src="./images/viewer-reviews-slider/Ellipse 37.svg" alt="Кружок">
-              </button>
-              <button class="viewer-reviews-slider__round-button" type="button">
-                <img class="viewer-reviews-slider__round-button-image" src="./images/viewer-reviews-slider/Ellipse 37.svg" alt="Кружок">
-              </button>
-            </div>
-            <div class="viewer-reviews-slider__arrow-buttons">
-              <button class="viewer-reviews-slider__arrow-button" type="button">
-                <img class="viewer-reviews-slider__arrow-button-image" src="./images/viewer-reviews-slider/Group 207-l.svg" alt="Кнопка налево">
-              </button>
-              <button class="viewer-reviews-slider__arrow-button" type="button">
-                <img class="viewer-reviews-slider__arrow-button-image" src="./images/viewer-reviews-slider/Group 207-r.svg" alt="Кнопка направо">
-              </button>
-            </div>
+          <div class="viewer-reviews-slider__round-buttons">
+            <button class="viewer-reviews-slider__round-button" type="button">
+              <svg class="viewer-reviews-slider__round-button-image" width="6" height="6" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="2.5" stroke="#242424"/></svg>
+            </button>
+            <button class="viewer-reviews-slider__round-button" type="button">
+              <svg class="viewer-reviews-slider__round-button-image" width="6" height="6" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="2.5" stroke="#242424"/></svg>
+            </button>
+            <button class="viewer-reviews-slider__round-button" type="button">
+              <svg class="viewer-reviews-slider__round-button-image" width="6" height="6" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="2.5" stroke="#242424"/></svg>
+            </button>
+            <button class="viewer-reviews-slider__round-button" type="button">
+              <svg class="viewer-reviews-slider__round-button-image" width="6" height="6" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="2.5" stroke="#242424"/></svg>
+            </button>
+          </div>
+          <div class="viewer-reviews-slider__arrow-buttons">
+            <button class="viewer-reviews-slider__arrow-button viewer-reviews-slider__arrow-button_prev" type="button">
+              <svg class="viewer-reviews-slider__arrow-button-image" width="50" height="50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25 1C11.745 1 1 11.745 1 25s10.745 24 24 24" stroke="#242424"/><path fill-rule="evenodd" clip-rule="evenodd" d="m15 24.477.725.724L21.523 31l.703-.703-5.32-5.32H36v-1H16.95l5.251-5.252-.724-.725-5.774 5.774-.703.703Z" fill="#242424"/></svg>
+            </button>
+            <button class="viewer-reviews-slider__arrow-button viewer-reviews-slider__arrow-button_next" type="button">
+              <svg class="viewer-reviews-slider__arrow-button-image" width="50" height="50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25 1c13.255 0 24 10.745 24 24S38.255 49 25 49" stroke="#242424"/><path fill-rule="evenodd" clip-rule="evenodd" d="m35 24.477-.725.724L28.477 31l-.703-.703 5.32-5.32H14v-1h19.05L27.8 18.725l.724-.725 5.774 5.774.703.703Z" fill="#242424"/></svg>
           </div>
         </div>
-        <div class="viewer-reviews-slider__container">
-          <ul class="viewer-reviews-slider__track">
-            <li class="viewer-reviews-slider__item">
-              <p class="viewer-reviews-slider__review">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!</p>
-              <p class="viewer-reviews-slider__review-caption">Наталья Зайцева</p>
-            </li>
-            <li class="viewer-reviews-slider__item">
-              <p class="viewer-reviews-slider__review">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
-              <p class="viewer-reviews-slider__review-caption">Дина Годер</p>
-            </li>
-            <li class="viewer-reviews-slider__item">
-              <p class="viewer-reviews-slider__review">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как будто сама поучаствовала в спектакле</p>
-              <p class="viewer-reviews-slider__review-caption">Дарья Морозова</p>
-            </li>
-            <!-- <li class="viewer-reviews-slider__item">
-              <p class="viewer-reviews-slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium aliquid atque quibusdam tempore eligendi perferendis omnis laborum rem! Neque harum sit quaerat facere consectetur, eaque veritatis iure minima reprehenderit?</p>
-              <p class="viewer-reviews-slider__review-caption">Lorem ipsum</p>
-            </li> -->
-          </ul>
+        <div class="viewer-reviews-slider__wrapper">
+          <div class="viewer-reviews-slider__container">
+            <ul class="viewer-reviews-slider__track">
+              <li class="viewer-reviews-slider__item">
+                <p class="viewer-reviews-slider__review">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!</p>
+                <p class="viewer-reviews-slider__review-caption">Наталья Зайцева</p>
+              </li>
+              <li class="viewer-reviews-slider__item">
+                <p class="viewer-reviews-slider__review">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
+                <p class="viewer-reviews-slider__review-caption">Дина Годер</p>
+              </li>
+              <li class="viewer-reviews-slider__item">
+                <p class="viewer-reviews-slider__review">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как будто сама поучаствовала в спектакле</p>
+                <p class="viewer-reviews-slider__review-caption">Дарья Морозова</p>
+              </li>
+              <li class="viewer-reviews-slider__item">
+                <p class="viewer-reviews-slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium aliquid atque quibusdam tempore eligendi perferendis omnis laborum rem! Neque harum sit quaerat facere consectetur, eaque veritatis iure minima reprehenderit?</p>
+                <p class="viewer-reviews-slider__review-caption">Lorem ipsum</p>
+              </li>
+              <li class="viewer-reviews-slider__item">
+                <p class="viewer-reviews-slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium aliquid atque quibusdam tempore eligendi perferendis omnis laborum rem! Neque harum sit quaerat facere consectetur, eaque veritatis iure minima reprehenderit?</p>
+                <p class="viewer-reviews-slider__review-caption">Lorem ipsum</p>
+              </li>
+              <li class="viewer-reviews-slider__item">
+                <p class="viewer-reviews-slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium aliquid atque quibusdam tempore eligendi perferendis omnis laborum rem! Neque harum sit quaerat facere consectetur, eaque veritatis iure minima reprehenderit?</p>
+                <p class="viewer-reviews-slider__review-caption">Lorem ipsum</p>
+              </li>
+              <li class="viewer-reviews-slider__item">
+                <p class="viewer-reviews-slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium aliquid atque quibusdam tempore eligendi perferendis omnis laborum rem! Neque harum sit quaerat facere consectetur, eaque veritatis iure minima reprehenderit?</p>
+                <p class="viewer-reviews-slider__review-caption">Lorem ipsum</p>
+              </li>
+              <li class="viewer-reviews-slider__item">
+                <p class="viewer-reviews-slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium aliquid atque quibusdam tempore eligendi perferendis omnis laborum rem! Neque harum sit quaerat facere consectetur, eaque veritatis iure minima reprehenderit?</p>
+                <p class="viewer-reviews-slider__review-caption">Lorem ipsum</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
@@ -160,5 +175,6 @@ shishki.collective</a>
     </footer>
   </div>
   <script src="./scripts/index.js"></script>
+  <script src="./scripts/viewer-reviews-slider.js"></script>
 </body>
 </html>

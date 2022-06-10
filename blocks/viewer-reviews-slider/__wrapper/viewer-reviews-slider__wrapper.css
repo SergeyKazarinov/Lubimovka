@@ -1,0 +1,22 @@
+.viewer-reviews-slider__wrapper {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1170px) {
+  .viewer-reviews-slider__wrapper {
+    width: 1170;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .viewer-reviews-slider__wrapper {
+    width: 850;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .viewer-reviews-slider__wrapper {
+    width: 350;
+  }
+}

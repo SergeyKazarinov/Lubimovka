@@ -1,0 +1,25 @@
+.color-change {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+}
+
+.color-change:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #242424;
+  transition: left .3s;
+}
+
+.color-change:hover .button-content {
+  color: #E5E5E5;
+  fill: #E5E5E5;
+}
+
+.color-change:hover:before{
+  left: 0;
+}

@@ -2,9 +2,12 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/Formular-Light/formular-light.css);
 @import url(../vendor/fonts/Neue-Machina-Regular/Neue-Machina.css);
-/* page body */
+@import url(../vendor/OwlCarousel/owl.carousel.min.css);
+@import url(../vendor/OwlCarousel/owl.theme.default.min.css);
+/* page */
 @import url(../blocks/page/page.css);
-@import url(../blocks/body/body.css);
+/* header */
+@import url(../blocks/header/header.css);
 /* mix classes */
 @import url(../blocks/color-change/color-change.css);
 @import url(../blocks/scale-animation/scale-animation.css);
@@ -56,6 +59,13 @@
 @import url(../blocks/read/__item/_type/read__item_type_button.css);
 @import url(../blocks/read/__name/read__name.css);
 @import url(../blocks/read/__place/read__place.css);
+/* reviews */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__button-read/reviews__button-read.css);
+@import url(../blocks/reviews/__list/reviews__list.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
+@import url(../blocks/reviews/__subtitle/reviews__subtitle.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -80,4 +90,3 @@
 @import url(../blocks/footer/__copyright-title/footer__copyright-title.css);
 /*сброс css тега ul*/
 @import url(../blocks/list/list.css);
-

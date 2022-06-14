@@ -1,0 +1,7 @@
+.viewer-reviews-slider__track {
+  display: flex;
+  background-color: #ECEBE8;
+  padding: 0;
+  margin: 0;
+  transition: .2s;
+}

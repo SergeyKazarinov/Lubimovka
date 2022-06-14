@@ -8,6 +8,7 @@
 @import url(../blocks/page/page.css);
 /* header */
 @import url(../blocks/header/header.css);
+
 /* mix classes */
 @import url(../blocks/color-change/color-change.css);
 @import url(../blocks/scale-animation/scale-animation.css);
@@ -66,6 +67,24 @@
 @import url(../blocks/reviews/__name/reviews__name.css);
 @import url(../blocks/reviews/__subtitle/reviews__subtitle.css);
 @import url(../blocks/reviews/__title/reviews__title.css);
+
+/* viewer_reviews */
+@import url(../blocks/viewer-reviews-slider/viewer-reviews-slider.css);
+@import url(../blocks/viewer-reviews-slider/__header/viewer-reviews-slider__header.css);
+@import url(../blocks/viewer-reviews-slider/__title/viewer-reviews-slider__title.css);
+@import url(../blocks/viewer-reviews-slider/__round-buttons/viewer-reviews-slider__round-buttons.css);
+@import url(../blocks/viewer-reviews-slider/__round-button/viewer-reviews-slider__round-button.css);
+@import url(../blocks/viewer-reviews-slider/__round-button-image/viewer-reviews-slider__round-button-image.css);
+@import url(../blocks/viewer-reviews-slider/__arrow-buttons/viewer-reviews-slider__arrow-buttons.css);
+@import url(../blocks/viewer-reviews-slider/__arrow-button/viewer-reviews-slider__arrow-button.css);
+@import url(../blocks/viewer-reviews-slider/__arrow-button-image/viewer-reviews-slider__arrow-button-image.css);
+@import url(../blocks/viewer-reviews-slider/__wrapper/viewer-reviews-slider__wrapper.css);
+@import url(../blocks/viewer-reviews-slider/__container/viewer-reviews-slider__container.css);
+@import url(../blocks/viewer-reviews-slider/__track/viewer-reviews-slider__track.css);
+@import url(../blocks/viewer-reviews-slider/__item/viewer-reviews-slider__item.css);
+@import url(../blocks/viewer-reviews-slider/__review/viewer-reviews-slider__review.css);
+@import url(../blocks/viewer-reviews-slider/__review-caption/viewer-reviews-slider__review-caption.css);
+
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -88,5 +107,6 @@
 @import url(../blocks/footer/__addres-title/footer__address-title.css);
 @import url(../blocks/footer/__address-sibtitle/footer__address-subtitle.css);
 @import url(../blocks/footer/__copyright-title/footer__copyright-title.css);
+
 /*сброс css тега ul*/
 @import url(../blocks/list/list.css);

@@ -1,0 +1,7 @@
+.viewer-reviews-slider__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 50px;
+}

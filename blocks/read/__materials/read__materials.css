@@ -5,4 +5,11 @@
   z-index: -5;
   padding-top: 24px;
   box-sizing: border-box;
+  margin: 0;
+}
+
+@media screen and (max-width: 570px) {
+  .read__materials {
+    width: 244px;
+  }
 }

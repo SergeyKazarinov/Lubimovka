@@ -1,8 +1,28 @@
 .header__support {
+  visibility: visible;
   max-width: 127px;
   display: flex;
   height: 25px;
   text-decoration: none;
   color: #000;
   margin: 20px 30px 18px 17px;
+}
+
+@media screen and (max-width: 1150px) {
+  .header__support {
+    max-width: 100px;
+    margin: 17px 5px 13px 5px;
+    height: 21px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header__support {
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    max-width: 0;
+    margin: 0;
+  }
 }

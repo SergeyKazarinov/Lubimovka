@@ -3,5 +3,16 @@
   align-items: center;
   justify-content: center;
   width: 106px;
-  /* width: 100%; */
+}
+
+@media screen and (max-width: 1150px) {
+  .header__logo-container {
+    width: 66px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header__logo-container {
+    width: 46px;
+  }
 }

@@ -1,11 +1,26 @@
 .header__socials {
+  visibility: visible;
   max-width: 207px;
   margin: 21px 26px 22px 24px;
-  /* gap: 16px; */
   justify-content: space-between;
 }
 
 .header__socials .header__item:hover {
   opacity: .6;
   transition: opacity .4s;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .header__socials {
+    margin: 21px 10px 15px 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header__socials {
+    max-width: 0;
+    visibility: hidden;
+    margin: 16px 0 17px 0;
+  }
 }

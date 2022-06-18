@@ -8,3 +8,15 @@
   letter-spacing: -0.01em;
   margin: 212px 0 0;
 }
+
+@media screen and (max-width: 570px) {
+  .about__date {
+    margin: 31px 0 0 89px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__date {
+    margin-left: 40px;
+  }
+}

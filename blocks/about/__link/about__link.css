@@ -31,3 +31,15 @@
   box-sizing: border-box;
   background-color: inherit;
 }
+
+@media screen and (max-width: 570px) {
+  .about__link {
+    margin: 16px 0 38px 85px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__link {
+    margin-left: 40px;
+  }
+}

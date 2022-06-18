@@ -3,3 +3,9 @@
   position: relative;
   padding-bottom: 85%;
 }
+
+@media screen and (max-width: 570px) {
+  .about__image-container {
+    padding-bottom: 108%;
+  }
+}

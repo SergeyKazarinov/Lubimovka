@@ -4,7 +4,7 @@
   outline: none;
 }
 
-.color-change:before {
+.color-change::before {
   content: '';
   position: absolute;
   top: 0;

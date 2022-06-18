@@ -1,0 +1,29 @@
+.button-menu {
+  width: 72px;
+  height: 72px;
+  position: fixed;
+  bottom: 128px;
+  right: 0;
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  z-index: 4;
+  border: 0;
+  cursor: pointer;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.button-menu:hover .button-menu__line:nth-of-type(2) {
+  transform: translate(-10px, 0);
+  transition: transform, .4s;
+}
+
+@media screen and (max-width: 570px) {
+  .button-menu {
+    visibility: visible;
+  }
+}

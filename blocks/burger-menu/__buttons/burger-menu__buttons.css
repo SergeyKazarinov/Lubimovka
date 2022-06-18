@@ -1,0 +1,6 @@
+.burger-menu__buttons {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

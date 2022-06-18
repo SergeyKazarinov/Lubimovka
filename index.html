@@ -9,7 +9,8 @@
   <title>Любимовка</title>
 </head>
 <body class="page">
-    <header class="header">
+
+  <header class="header">
       <div class="header__logo-container">
         <img class="header__logo" src="./images/header/Group.svg" alt="Логотип">
       </div>
@@ -83,8 +84,14 @@
         </a>
       </nav>
     </header>
-<!--
+
     <main class="content">
+      <button type="button" class="button-menu">
+        <img class="button-menu__line" src="./images/burger-menu/Line 91.svg" alt="Линия">
+        <img class="button-menu__line" src="./images/burger-menu/Line 91.svg" alt="Линия">
+        <img class="button-menu__line" src="./images/burger-menu/Line 91.svg" alt="Линия">
+      </button>
+
       <section class="burger-menu">
         <div class="burger-menu__logo-container">
           <img class="burger-menu__logo" src="./images/header/Group.svg" alt="Логотип">
@@ -95,12 +102,12 @@
             <li class="burger-menu__item">
               <img class="burger-menu__item-brackets" src="./images/header/Ellipse 46.svg">
               <a class="burger-menu__link" href="#">Главная</a>
-              <img class="burger-menu-brackets" src="./images/header/Ellipse 56.svg">
+              <img class="burger-menu__item-brackets" src="./images/header/Ellipse 56.svg">
             </li>
             <li class="burger-menu__item">
               <img class="burger-menu__item-brackets" src="./images/header/Ellipse 46.svg">
               <a class="burger-menu__link" href="#">Афиша</a>
-              <img class="burger-menu-brackets" src="./images/header/Ellipse 56.svg">
+              <img class="burger-menu__item-brackets" src="./images/header/Ellipse 56.svg">
             </li>
             <li class="burger-menu__item">
               <img class="burger-menu__item-brackets" src="./images/header/Ellipse 46.svg">
@@ -140,58 +147,58 @@
             <li class="burger-menu__item">
               <img class="burger-menu__item-brackets" src="./images/header/Ellipse 46.svg">
               <a class="burger-menu__link" href="#">Для прессы</a>
-              <img class="burger-menu-brackets" src="./images/header/Ellipse 56.svg">
+              <img class="burger-menu__item-brackets" src="./images/header/Ellipse 56.svg">
             </li>
           </ul>
-
-          <a class="about__link color-change scale-animation" href="#" target="_blank">
-            <span class="button-content">ПОДАТЬ ПЬЕСУ</span>
-            <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
-              </svg>
-          </a>
-          <a class="about__link color-change scale-animation" href="#" target="_blank">
-            <span class="button-content">ПОДДЕРЖАТЬ</span>
-            <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
-              </svg>
-          </a>
-
-          <ul class="list header__items header__socials">
-            <li class="header__item">
-              <a class="about__link color-change scale-animation" href="#" target="_blank">
+          <div class="burger-menu__buttons">
+            <a class="burger-menu__button-item color-change scale-animation" href="#" target="_blank">
+              <span class="button-content">ПОДАТЬ ПЬЕСУ</span>
+              <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
+                </svg>
+            </a>
+            <a class="burger-menu__button-item color-change scale-animation" href="#" target="_blank">
+              <span class="button-content">ПОДДЕРЖАТЬ</span>
+              <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
+                </svg>
+            </a>
+        </div>
+          <ul class="list burger-menu__socials">
+            <li class="burger-menu__socials-item">
+              <a class="burger-menu__social-link link color-change scale-animation" href="#" target="_blank">
                 <span class="button-content">ytube</span>
                 <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
                   </svg>
               </a>
             </li>
-            <li class="header__item">
-              <a class="about__link color-change scale-animation" href="#" target="_blank">
+            <li class="burger-menu__socials-item">
+              <a class="burger-menu__social-link color-change scale-animation" href="#" target="_blank">
                 <span class="button-content">fb</span>
                 <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
                   </svg>
               </a>
             </li>
-            <li class="header__item">
-              <a class="about__link color-change scale-animation" href="#" target="_blank">
+            <li class="burger-menu__socials-item">
+              <a class="burger-menu__social-link color-change scale-animation" href="#" target="_blank">
                 <span class="button-content">inst</span>
                 <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
                   </svg>
               </a>
             </li>
-            <li class="header__item">
-              <a class="about__link color-change scale-animation" href="#" target="_blank">
+            <li class="burger-menu__socials-item">
+              <a class="burger-menu__social-link color-change scale-animation" href="#" target="_blank">
                 <span class="button-content">vk</span>
                 <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
                   </svg>
               </a>
             </li>
-            <li class="header__item">
-              <a class="about__link color-change scale-animation" href="#" target="_blank">
+            <li class="burger-menu__socials-item">
+              <a class="burger-menu__social-link color-change scale-animation" href="#" target="_blank">
                 <span class="button-content">tlgrm</span>
                 <svg class="button-content" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z"/>
@@ -200,18 +207,18 @@
             </li>
           </ul>
         </nav> 
-        <div class="footer__copyright">
-          <p class="footer__copyright-title">&#169; Любимовка, 2022</p>
-          <a class="footer__copyright-link" href="#" target="_blank">Политика конфиденциальности</a>
+        <div class="burger-menu__copyright">
+          <p class="burger-menu__copyright-title">&#169; Любимовка, 2022</p>
+          <a class="burger-menu__copyright-link" href="#" target="_blank">Политика конфиденциальности</a>
         </div> 
 
-        <div class="footer__design">
-          <img class="footer__design-logo" src="./images/footer/shishki-collective-logo.svg" alt="Лого shishki.collective">
-          <a class="footer__design-link" href="#" target="_blank">дизайн сайта &mdash;
-shishki.collective</a>
+        <div class="burger-menu__design">
+          <img class="burger-menu__design-logo" src="./images/footer/shishki-collective-logo.svg" alt="Лого shishki.collective">
+          <span class="burger-menu__design-link">дизайн сайта &mdash;
+<a class="link" href="https://ru.shishki.co/" target="_blank">shishki.collective</a></span>
         </div>
-      <a class="footer__developers" href="#" target="_blank">вёрстка и разработка &mdash;
-студенты Яндекс.Практикума</a>
+        <span class="burger-menu__developers">вёрстка и разработка &mdash; студенты 
+      <a class="link" href="https://practicum.yandex.ru/" target="_blank">Яндекс.Практикума</a></span>
       </section>
 
       <a class="back-button color-change scale-animation" href="#">
@@ -530,7 +537,7 @@ shishki.collective</a>
       <a class="footer__developers" href="#" target="_blank">вёрстка и разработка &mdash;
 студенты Яндекс.Практикума</a>
     </footer>
-  -->
+    
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="./scripts/owl.carousel.min.js"></script>
   <script src="./scripts/index.js"></script>

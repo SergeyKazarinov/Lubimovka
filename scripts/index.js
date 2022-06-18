@@ -14,6 +14,37 @@ $(document).ready(function(){
   });
 });
 
+/** Кнопка бургерного меню */
+const buttonBurger = document.querySelector('.button-menu');
+const burgerMenu = document.querySelector('.burger-menu');
+
+
+const openMenu = () => {
+  buttonBurger.classList.add('button-menu_opened');
+  burgerMenu.classList.add('burger-menu_opened');
+  document.addEventListener('keydown', closeMenuEsc);
+};
+
+const closeMenu = () => {
+  buttonBurger.classList.remove('button-menu_opened');
+  burgerMenu.classList.remove('burger-menu_opened');
+  document.removeEventListener('keydown', closeMenuEsc);
+}
+const closeMenuEsc = event => {
+  if(event.key === "Escape") {
+    closeMenu();
+  }
+}
+
+buttonBurger.addEventListener('click', () => {
+  if(!buttonBurger.classList.contains('button-menu_opened')) {
+    openMenu();
+  }
+  else{
+    closeMenu();
+  }
+});
+
 // //Делегируем события кнопок next prev по умолчанию нашим кнопкам, которые могут находится ыне контейнера слайдера
 // var owl=$(".owl-carousel");
 // owl.owlCarousel();

@@ -10,7 +10,7 @@
   margin: 48px 0 0;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .about__paragraph {
     font-size: 24px;
     line-height: 28px;

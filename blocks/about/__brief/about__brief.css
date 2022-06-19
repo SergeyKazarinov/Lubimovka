@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .about__brief {
     padding-left: 20px;
   }

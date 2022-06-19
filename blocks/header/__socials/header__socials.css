@@ -10,17 +10,25 @@
   transition: opacity .4s;
 }
 
-
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
   .header__socials {
-    margin: 21px 10px 15px 10px;
+    margin: 21px 10px 22px 10px;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1150px) {
+  .header__socials {
+    margin: 21px 4px 15px 4px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .header__socials {
     max-width: 0;
     visibility: hidden;
-    margin: 16px 0 17px 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }

@@ -8,7 +8,6 @@
   white-space: nowrap;
 }
 
-
 @media screen and (max-width: 1150px) {
   .header__link {
     font-size: 12px;
@@ -16,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .header__link {
     font-size: 10px;
     line-height: 12px;

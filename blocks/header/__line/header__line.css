@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .header__line {
     max-height: 30px;
     visibility: hidden;

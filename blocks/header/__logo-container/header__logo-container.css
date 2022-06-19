@@ -11,8 +11,16 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .header__logo-container {
     width: 46px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .header__logo-container {
+    visibility: visible;
+    margin-top: 30px;
+    margin-left: 24px;
   }
 }

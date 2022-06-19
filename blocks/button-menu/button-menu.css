@@ -2,7 +2,7 @@
   width: 72px;
   height: 72px;
   position: fixed;
-  bottom: 128px;
+  top: 0;
   right: 0;
   background-color: #242424;
   display: flex;

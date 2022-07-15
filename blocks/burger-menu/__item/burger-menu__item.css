@@ -1,8 +1,6 @@
 .burger-menu__item {
   display: flex;
   align-items: center;
-  opacity: 1;
-  transition: opacity, .4s;
 }
 
 .burger-menu__item:hover .burger-menu__item-brackets {

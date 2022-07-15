@@ -1,0 +1,9 @@
+.burger-menu__link {
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: 'Neue Machina', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:  #000;
+}

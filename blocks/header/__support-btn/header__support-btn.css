@@ -1,0 +1,21 @@
+.header__support-btn {
+  width: 25px;
+  height: 25px;
+  font-size: 23px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .header__support-btn {
+    width: 21px;
+    height: 21px;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__support-btn {
+    width: 0;
+    font-size: 0px;
+  }
+}

@@ -1,0 +1,23 @@
+.header__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'formular', Arial, sans-serif;
+  font-style: normal;
+  color:  #000;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1150px) {
+  .header__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__link {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

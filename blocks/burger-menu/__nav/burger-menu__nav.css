@@ -1,0 +1,7 @@
+.burger-menu__nav {
+  margin-top: 39px;
+  margin-left: 39px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

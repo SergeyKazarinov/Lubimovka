@@ -1,0 +1,21 @@
+.about__brief {
+  padding: 0 0 0 120px;
+}
+
+@media screen and (max-width: 1150px) {
+  .about__brief {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about__brief {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .about__brief {
+    padding-left: 0;
+  }
+}

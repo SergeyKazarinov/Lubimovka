@@ -1,0 +1,18 @@
+.read__name {
+  font-family: 'Neue Machina', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #242424;
+  padding: 0;
+  margin: 17px 0 0;
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 570px) {
+  .read__name {
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,45 @@
+@keyframes press {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.about__link {
+  padding: 0 16px;
+  margin: 18px 0 0;
+  text-decoration: none;
+  width: 240px;
+  height: 56px;
+  flex-shrink: 0;
+  font-family: 'Formular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+  border: 1px solid #000000;
+  border-image: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 570px) {
+  .about__link {
+    margin: 16px 0 38px 85px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__link {
+    margin-left: 40px;
+  }
+}

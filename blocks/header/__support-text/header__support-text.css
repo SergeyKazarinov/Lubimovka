@@ -1,0 +1,21 @@
+.header__support-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: 'formular', Arial, sans-serif;
+  font-style: normal;
+  align-self: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .header__support-text {
+    font-size: 11px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .header__support-text {
+    font-size: 0;
+    line-height: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.about {
+  padding: 30px 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 570px) {
+  .about {
+    grid-template-columns: 100%;
+    padding: 58px 0 0;
+    justify-content: center;
+  }
+}

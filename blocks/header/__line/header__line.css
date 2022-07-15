@@ -1,7 +1,25 @@
 .header__line {
+  visibility: visible;
   max-height: 50px;
   background-color: black;
   height: 100%;
   width: 1px;
   margin-top: 13px;
+}
+
+@media screen and (max-width: 1150px) {
+  .header__line {
+    max-height: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__line {
+    max-height: 30px;
+    visibility: hidden;
+  }
+
+  .header__line:first-of-type {
+    visibility: hidden;
+  }
 }

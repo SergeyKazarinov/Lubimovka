@@ -1,7 +1,23 @@
 .header__nav {
   max-width: 912px;
-  width: 100%;
   margin: 20px 29px 17px 0;
-  /* gap: 24px; */
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1250px) {
+  .header__nav {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .header__nav {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__nav {
+    margin: 15px 0 12px 0;
+  }
 }

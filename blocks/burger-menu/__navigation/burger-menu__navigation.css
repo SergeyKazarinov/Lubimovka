@@ -1,0 +1,4 @@
+.burger-menu__navigation {
+  display: flex;
+  flex-direction: column;
+}

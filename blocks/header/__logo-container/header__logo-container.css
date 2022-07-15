@@ -3,5 +3,24 @@
   align-items: center;
   justify-content: center;
   width: 106px;
-  /* width: 100%; */
+}
+
+@media screen and (max-width: 1150px) {
+  .header__logo-container {
+    width: 66px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__logo-container {
+    width: 46px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .header__logo-container {
+    visibility: visible;
+    margin-top: 30px;
+    margin-left: 24px;
+  }
 }

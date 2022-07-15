@@ -1,0 +1,16 @@
+.button-menu__line:first-of-type {
+  transform: rotate(0deg) translate(0, 0);
+  transition: transform, 1s;
+  width: 20px;
+}
+
+.button-menu__line:nth-of-type(2) {
+  transform: translate(0, 0);
+  transition: transform, .5s;
+}
+
+.button-menu__line:last-of-type {
+  transform: rotate(0deg) translate(0, 0);
+  transition: transform, 1s;
+  width: 20px;
+}

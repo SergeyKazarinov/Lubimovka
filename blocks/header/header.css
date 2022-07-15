@@ -1,6 +1,27 @@
 .header {
+  visibility: visible;
   width: 100%;
   border-bottom: 1px solid #000;
   display: flex;
   max-height: 62px;
+}
+
+@media screen and (max-width: 1150px) {
+  .header {
+    max-height: 52px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    max-height: 42px;
+  }
+}
+
+
+@media screen and (max-width: 570px) {
+  .header {
+    visibility: hidden;
+    max-height: 0;
+  }
 }
